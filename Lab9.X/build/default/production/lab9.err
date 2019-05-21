@@ -1,0 +1,7 @@
+Warning[205] /home/andrew/MPLABXProjects/Lab9.X/lab9.asm 70 : Found directive in column 1. (extern)
+Warning[205] /home/andrew/MPLABXProjects/Lab9.X/lab9.asm 71 : Found directive in column 1. (extern)
+Warning[205] /home/andrew/MPLABXProjects/Lab9.X/lab9.asm 72 : Found directive in column 1. (extern)
+Warning[205] /home/andrew/MPLABXProjects/Lab9.X/lab9.asm 73 : Found directive in column 1. (extern)
+Message[302] /home/andrew/MPLABXProjects/Lab9.X/lab9.asm 106 : Register in operand not in bank 0.  Ensure that bank bits are correct.
+Message[302] /home/andrew/MPLABXProjects/Lab9.X/lab9.asm 145 : Register in operand not in bank 0.  Ensure that bank bits are correct.
+Message[302] /home/andrew/MPLABXProjects/Lab9.X/lab9.asm 263 : Register in operand not in bank 0.  Ensure that bank bits are correct.

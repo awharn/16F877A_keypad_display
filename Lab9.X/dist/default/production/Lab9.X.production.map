@@ -1,0 +1,129 @@
+MPLINK 5.08, LINKER
+Linker Map File - Created Fri Nov 17 19:23:54 2017
+
+                                 Section Info
+                  Section       Type    Address   Location Size(Bytes)
+                ---------  ---------  ---------  ---------  ---------
+             RESET_VECTOR       code   0x000000    program   0x000008
+               INT_VECTOR       code   0x000004    program   0x000018
+                    PROG1       code   0x000010    program   0x0001b8
+                   .cinit    romdata   0x0000ec    program   0x000004
+                MAIN_PROG       code   0x0000ee    program   0x0001ba
+.config_2007_BUILD/DEFAULT/PRODUCTION/LAB9.O       code   0x002007    program   0x000002
+               D_LCD_DATA      udata   0x000020       data   0x000004
+                 TEMP_VAR      udata   0x000024       data   0x000003
+                   G_DATA      udata   0x000027       data   0x000002
+                  INT_VAR      udata   0x000070       data   0x000004
+
+
+
+                              Program Memory Usage 
+                               Start         End      
+                           ---------   ---------      
+                            0x000000    0x0001ca      
+                            0x002007    0x002007      
+            460 out of 8454 program addresses used, program memory utilization is 5%
+
+
+
+                              Symbols - Sorted by Name
+                     Name    Address   Location    Storage File                     
+                ---------  ---------  ---------  --------- ---------                
+             DelayXCycles   0x0000e9    program     static ../../p16F877a_lcdwdbmod.asm
+                    FinRd   0x0000e3    program     static ../../p16F877a_lcdwdbmod.asm
+                INTERRUPT   0x000004    program     static /home/andrew/MPLABXProjects/Lab9.X/lab9.asm
+                  LCDBusy   0x0000e4    program     extern ../../p16F877a_lcdwdbmod.asm
+                  LCDInit   0x000026    program     extern ../../p16F877a_lcdwdbmod.asm
+                LCDLine_1   0x000010    program     extern ../../p16F877a_lcdwdbmod.asm
+                LCDLine_2   0x000016    program     extern ../../p16F877a_lcdwdbmod.asm
+                  LCDRead   0x0000a2    program     static ../../p16F877a_lcdwdbmod.asm
+                 LCDWrite   0x000099    program     extern ../../p16F877a_lcdwdbmod.asm
+           LCDWriteNibble   0x000075    program     static ../../p16F877a_lcdwdbmod.asm
+              _PROG1_002C   0x00003c    program     static ../../p16F877a_lcdwdbmod.asm
+              _PROG1_0037   0x000047    program     static ../../p16F877a_lcdwdbmod.asm
+                      cf1   0x000159    program     static /home/andrew/MPLABXProjects/Lab9.X/lab9.asm
+                      cf2   0x000164    program     static /home/andrew/MPLABXProjects/Lab9.X/lab9.asm
+                 col_find   0x000152    program     static /home/andrew/MPLABXProjects/Lab9.X/lab9.asm
+                  convert   0x000121    program     static /home/andrew/MPLABXProjects/Lab9.X/lab9.asm
+                  d_write   0x00001c    program     extern ../../p16F877a_lcdwdbmod.asm
+                  display   0x000177    program     static /home/andrew/MPLABXProjects/Lab9.X/lab9.asm
+                  i_write   0x000022    program     extern ../../p16F877a_lcdwdbmod.asm
+                keypad_op   0x000168    program     static /home/andrew/MPLABXProjects/Lab9.X/lab9.asm
+                      kp1   0x00012d    program     static /home/andrew/MPLABXProjects/Lab9.X/lab9.asm
+                      kp2   0x000138    program     static /home/andrew/MPLABXProjects/Lab9.X/lab9.asm
+                      kp3   0x000143    program     static /home/andrew/MPLABXProjects/Lab9.X/lab9.asm
+                      kp4   0x00014e    program     static /home/andrew/MPLABXProjects/Lab9.X/lab9.asm
+                 kp_table   0x0001ba    program     static /home/andrew/MPLABXProjects/Lab9.X/lab9.asm
+                 kplookup   0x0001b0    program     static /home/andrew/MPLABXProjects/Lab9.X/lab9.asm
+                   kpread   0x00010f    program     static /home/andrew/MPLABXProjects/Lab9.X/lab9.asm
+                  kpreset   0x000197    program     static /home/andrew/MPLABXProjects/Lab9.X/lab9.asm
+                     loop   0x0000ff    program     static /home/andrew/MPLABXProjects/Lab9.X/lab9.asm
+                      rst   0x00018a    program     static /home/andrew/MPLABXProjects/Lab9.X/lab9.asm
+                    start   0x0000ee    program     static /home/andrew/MPLABXProjects/Lab9.X/lab9.asm
+                     wait   0x0001a0    program     static /home/andrew/MPLABXProjects/Lab9.X/lab9.asm
+                    ASCII   0x000025       data     static /home/andrew/MPLABXProjects/Lab9.X/lab9.asm
+                  COUNTER   0x000020       data     static ../../p16F877a_lcdwdbmod.asm
+                      add   0x000026       data     static /home/andrew/MPLABXProjects/Lab9.X/lab9.asm
+                    count   0x000027       data     static /home/andrew/MPLABXProjects/Lab9.X/lab9.asm
+                    delay   0x000021       data     static ../../p16F877a_lcdwdbmod.asm
+                     flag   0x000027       data     static /home/andrew/MPLABXProjects/Lab9.X/lab9.asm
+                  pattern   0x000073       data     static /home/andrew/MPLABXProjects/Lab9.X/lab9.asm
+              pclath_temp   0x000072       data     static /home/andrew/MPLABXProjects/Lab9.X/lab9.asm
+              status_temp   0x000071       data     static /home/andrew/MPLABXProjects/Lab9.X/lab9.asm
+               temp_count   0x000024       data     static /home/andrew/MPLABXProjects/Lab9.X/lab9.asm
+                  temp_rd   0x000023       data     static ../../p16F877a_lcdwdbmod.asm
+                  temp_wr   0x000022       data     extern ../../p16F877a_lcdwdbmod.asm
+                   w_temp   0x000070       data     static /home/andrew/MPLABXProjects/Lab9.X/lab9.asm
+
+
+
+                              Symbols - Sorted by Address
+                     Name    Address   Location    Storage File                     
+                ---------  ---------  ---------  --------- ---------                
+                INTERRUPT   0x000004    program     static /home/andrew/MPLABXProjects/Lab9.X/lab9.asm
+                LCDLine_1   0x000010    program     extern ../../p16F877a_lcdwdbmod.asm
+                LCDLine_2   0x000016    program     extern ../../p16F877a_lcdwdbmod.asm
+                  d_write   0x00001c    program     extern ../../p16F877a_lcdwdbmod.asm
+                  i_write   0x000022    program     extern ../../p16F877a_lcdwdbmod.asm
+                  LCDInit   0x000026    program     extern ../../p16F877a_lcdwdbmod.asm
+              _PROG1_002C   0x00003c    program     static ../../p16F877a_lcdwdbmod.asm
+              _PROG1_0037   0x000047    program     static ../../p16F877a_lcdwdbmod.asm
+           LCDWriteNibble   0x000075    program     static ../../p16F877a_lcdwdbmod.asm
+                 LCDWrite   0x000099    program     extern ../../p16F877a_lcdwdbmod.asm
+                  LCDRead   0x0000a2    program     static ../../p16F877a_lcdwdbmod.asm
+                    FinRd   0x0000e3    program     static ../../p16F877a_lcdwdbmod.asm
+                  LCDBusy   0x0000e4    program     extern ../../p16F877a_lcdwdbmod.asm
+             DelayXCycles   0x0000e9    program     static ../../p16F877a_lcdwdbmod.asm
+                    start   0x0000ee    program     static /home/andrew/MPLABXProjects/Lab9.X/lab9.asm
+                     loop   0x0000ff    program     static /home/andrew/MPLABXProjects/Lab9.X/lab9.asm
+                   kpread   0x00010f    program     static /home/andrew/MPLABXProjects/Lab9.X/lab9.asm
+                  convert   0x000121    program     static /home/andrew/MPLABXProjects/Lab9.X/lab9.asm
+                      kp1   0x00012d    program     static /home/andrew/MPLABXProjects/Lab9.X/lab9.asm
+                      kp2   0x000138    program     static /home/andrew/MPLABXProjects/Lab9.X/lab9.asm
+                      kp3   0x000143    program     static /home/andrew/MPLABXProjects/Lab9.X/lab9.asm
+                      kp4   0x00014e    program     static /home/andrew/MPLABXProjects/Lab9.X/lab9.asm
+                 col_find   0x000152    program     static /home/andrew/MPLABXProjects/Lab9.X/lab9.asm
+                      cf1   0x000159    program     static /home/andrew/MPLABXProjects/Lab9.X/lab9.asm
+                      cf2   0x000164    program     static /home/andrew/MPLABXProjects/Lab9.X/lab9.asm
+                keypad_op   0x000168    program     static /home/andrew/MPLABXProjects/Lab9.X/lab9.asm
+                  display   0x000177    program     static /home/andrew/MPLABXProjects/Lab9.X/lab9.asm
+                      rst   0x00018a    program     static /home/andrew/MPLABXProjects/Lab9.X/lab9.asm
+                  kpreset   0x000197    program     static /home/andrew/MPLABXProjects/Lab9.X/lab9.asm
+                     wait   0x0001a0    program     static /home/andrew/MPLABXProjects/Lab9.X/lab9.asm
+                 kplookup   0x0001b0    program     static /home/andrew/MPLABXProjects/Lab9.X/lab9.asm
+                 kp_table   0x0001ba    program     static /home/andrew/MPLABXProjects/Lab9.X/lab9.asm
+                  COUNTER   0x000020       data     static ../../p16F877a_lcdwdbmod.asm
+                    delay   0x000021       data     static ../../p16F877a_lcdwdbmod.asm
+                  temp_wr   0x000022       data     extern ../../p16F877a_lcdwdbmod.asm
+                  temp_rd   0x000023       data     static ../../p16F877a_lcdwdbmod.asm
+               temp_count   0x000024       data     static /home/andrew/MPLABXProjects/Lab9.X/lab9.asm
+                    ASCII   0x000025       data     static /home/andrew/MPLABXProjects/Lab9.X/lab9.asm
+                      add   0x000026       data     static /home/andrew/MPLABXProjects/Lab9.X/lab9.asm
+                    count   0x000027       data     static /home/andrew/MPLABXProjects/Lab9.X/lab9.asm
+                     flag   0x000027       data     static /home/andrew/MPLABXProjects/Lab9.X/lab9.asm
+                   w_temp   0x000070       data     static /home/andrew/MPLABXProjects/Lab9.X/lab9.asm
+              status_temp   0x000071       data     static /home/andrew/MPLABXProjects/Lab9.X/lab9.asm
+              pclath_temp   0x000072       data     static /home/andrew/MPLABXProjects/Lab9.X/lab9.asm
+                  pattern   0x000073       data     static /home/andrew/MPLABXProjects/Lab9.X/lab9.asm
+
+
